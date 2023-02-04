@@ -4,7 +4,7 @@ import Login from "../pageObjects/loginPage.js"
 describe('Login Test', () => {
 
 it('verify that local dealer can login a valid ID and Password', () => {
-cy.visit('https://frontendv2.shekel.africa/login')
+cy.visit('https://shekelmobility.com/login')
 
 cy.fixture('testData').then((data)=>{
 
