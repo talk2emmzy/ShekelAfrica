@@ -25,7 +25,7 @@ class Login
 
 
 
-    setUserInvalidName(rInvalidUsername)
+    setUserInvalidName(InvalidUsername)
     {
         cy.get("input[placeholder='Enter your email']").type(InvalidUsername)
     }
